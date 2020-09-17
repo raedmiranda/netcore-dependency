@@ -1,5 +1,5 @@
-﻿using Demo.DependencyInjection.Implementation1;
-using Demo.DependencyInjection.Implementation2;
+﻿using Autofac;
+using Demo.DependencyInjection.Abstractions;
 using System;
 
 namespace Demo.DependencyInjection.Application
@@ -8,6 +8,8 @@ namespace Demo.DependencyInjection.Application
     {
         static void Main(string[] args)
         {
+            var IoCContainer = IoCConfiguration.GenerateContainer();
+
             Console.WriteLine("Multiplicator Example without Dependency Injection");
             Console.WriteLine("Enter the multiplicand:");
             var multiplicandString = Console.ReadLine();
@@ -25,7 +27,7 @@ namespace Demo.DependencyInjection.Application
                 Console.WriteLine("Must be a number. Enter the multiplier again:");
                 multiplierString = Console.ReadLine();
             }
-            int product = new Multiplicator1().MultiplyNumbers(multiplicand, multiplier);
+            int product = IoCContainer.Resolve<IMultiplicator>().MultiplyNumbers(multiplicand, multiplier);
             Console.WriteLine($"The product is: {product}");
             Console.ReadLine();
         }

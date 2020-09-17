@@ -61,3 +61,13 @@ Typing...
 ## Run 
 dotnet run --project Demo.DependencyInjection.Application\Demo.DependencyInjection.Application.csproj
 
+## Using DependencyInjection
+## Add package Autofac to Demo.DependencyInjection.Application
+dotnet add Demo.DependencyInjection.Application\Demo.DependencyInjection.Application.csproj package Autofac --version 5.2.0
+
+## Add class file IoCConfiguration 
+Link [http://autofaccn.readthedocs.io/en/latest/index.html]
+Typing...
+
+## Run 
+dotnet run --project Demo.DependencyInjection.Application\Demo.DependencyInjection.Application.csproj

@@ -5,6 +5,10 @@
     <ProjectReference Include="..\Demo.DependencyInjection.Implementation2\Demo.DependencyInjection.Implementation2.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
