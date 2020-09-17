@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Demo.DependencyInjection.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Demo.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo.DependencyInjection.Abstractions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Demo.DependencyInjection.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Demo.DependencyInjection.Abstractions/Demo.DependencyInjection.Abstractions.csproj",
+      "msbuildProject": "../Demo.DependencyInjection.Abstractions/Demo.DependencyInjection.Abstractions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Demo.DependencyInjection.Abstractions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rmiranri\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rmiranri\\source\\repos\\netcore-dependency\\Demo.DependencyInjection.Abstractions\\Demo.DependencyInjection.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\rmiranri\\source\\repos\\netcore-dependency\\Demo.DependencyInjection.Abstractions\\Demo.DependencyInjection.Abstractions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

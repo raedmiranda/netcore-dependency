@@ -1,4 +1,5 @@
 ﻿using Demo.DependencyInjection.Implementation1;
+using Demo.DependencyInjection.Implementation2;
 using System;
 
 namespace Demo.DependencyInjection.Application
@@ -24,7 +25,7 @@ namespace Demo.DependencyInjection.Application
                 Console.WriteLine("Must be a number. Enter the multiplier again:");
                 multiplierString = Console.ReadLine();
             }
-            int product = new Multiplicator().MultiplyNumbers(multiplicand, multiplier);
+            int product = new Multiplicator1().MultiplyNumbers(multiplicand, multiplier);
             Console.WriteLine($"The product is: {product}");
             Console.ReadLine();
         }

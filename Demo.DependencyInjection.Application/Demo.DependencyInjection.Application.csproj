@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Demo.DependencyInjection.Implementation1\Demo.DependencyInjection.Implementation1.csproj" />
+    <ProjectReference Include="..\Demo.DependencyInjection.Implementation2\Demo.DependencyInjection.Implementation2.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

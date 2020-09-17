@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NMNwJccXg0qj4nEyQYN7I/MunAJVwxy7Vk1Fx2e3qlRzu7KwDfXJpNlaKUXo0FdCdQrettLY0jMk0SUozha7+g==",
+  "dgSpecHash": "R/6TAOdclwCeCLljBlU71p/uxy/UrTgch8Az+j4jASiw8xhRdywwdq1xJ0TwKmWMbVGSPxXN4b+RELmlig7OQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rmiranri\\source\\repos\\netcore-dependency\\Demo.DependencyInjection.Application\\Demo.DependencyInjection.Application.csproj",
   "expectedPackageFiles": [],

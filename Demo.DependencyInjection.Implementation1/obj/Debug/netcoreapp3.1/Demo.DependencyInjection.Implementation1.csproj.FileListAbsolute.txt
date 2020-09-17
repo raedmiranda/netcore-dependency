@@ -7,3 +7,6 @@ C:\Users\rmiranri\source\repos\netcore-dependency\Demo.DependencyInjection.Imple
 C:\Users\rmiranri\source\repos\netcore-dependency\Demo.DependencyInjection.Implementation1\obj\Debug\netcoreapp3.1\Demo.DependencyInjection.Implementation1.csproj.CoreCompileInputs.cache
 C:\Users\rmiranri\source\repos\netcore-dependency\Demo.DependencyInjection.Implementation1\obj\Debug\netcoreapp3.1\Demo.DependencyInjection.Implementation1.dll
 C:\Users\rmiranri\source\repos\netcore-dependency\Demo.DependencyInjection.Implementation1\obj\Debug\netcoreapp3.1\Demo.DependencyInjection.Implementation1.pdb
+C:\Users\rmiranri\source\repos\netcore-dependency\Demo.DependencyInjection.Implementation1\bin\Debug\netcoreapp3.1\Demo.DependencyInjection.Abstractions.dll
+C:\Users\rmiranri\source\repos\netcore-dependency\Demo.DependencyInjection.Implementation1\bin\Debug\netcoreapp3.1\Demo.DependencyInjection.Abstractions.pdb
+C:\Users\rmiranri\source\repos\netcore-dependency\Demo.DependencyInjection.Implementation1\obj\Debug\netcoreapp3.1\Demo.DependencyInjection.Implementation1.csproj.CopyComplete
