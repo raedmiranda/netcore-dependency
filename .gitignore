@@ -1,3 +1,41 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
 Demo.DependencyInjection.Abstractions/bin/Debug/netcoreapp3.1/Demo.DependencyInjection.Abstractions.deps.json
 Demo.DependencyInjection.Abstractions/bin/Debug/netcoreapp3.1/Demo.DependencyInjection.Abstractions.dll
 Demo.DependencyInjection.Abstractions/bin/Debug/netcoreapp3.1/Demo.DependencyInjection.Abstractions.pdb
@@ -71,3 +109,5 @@ Demo.DependencyInjection.Application/bin/Debug/netcoreapp3.1/Autofac.dll
 Demo.DependencyInjection.Application/bin/Debug/netcoreapp3.1/Demo.DependencyInjection.Application.deps.json
 Demo.DependencyInjection.Application/bin/Debug/netcoreapp3.1/Demo.DependencyInjection.Application.dll
 Demo.DependencyInjection.Application/bin/Debug/netcoreapp3.1/Demo.DependencyInjection.Application.pdb
+Demo.DependencyInjection.Application/obj/Debug/netcoreapp3.1/Demo.DependencyInjection.Application.assets.cache
+Demo.DependencyInjection.Implementation1/obj/Debug/netcoreapp3.1/Demo.DependencyInjection.Implementation1.assets.cache
