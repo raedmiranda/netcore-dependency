@@ -25,7 +25,7 @@ namespace Demo.DependencyInjection.Application
             int number = 0;
             while (!int.TryParse(numberString, out number))
             {
-                Console.WriteLine($"Must be a number.\nEnter the {type} again:");
+                Console.WriteLine($"Must be an integer number.\nEnter the {type} again:");
                 numberString = Console.ReadLine();
             }
             return number;
