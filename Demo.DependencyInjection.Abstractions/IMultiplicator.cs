@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Demo.DependencyInjection.Abstractions
+﻿namespace Demo.DependencyInjection.Abstractions
 {
     public interface IMultiplicator
     {

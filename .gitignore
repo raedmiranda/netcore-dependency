@@ -114,3 +114,6 @@ Demo.DependencyInjection.Implementation1/obj/Debug/netcoreapp3.1/Demo.Dependency
 Demo.DependencyInjection.Application/obj/Debug/netcoreapp3.1/Demo.DependencyInjection.Application.assets.cache
 Demo.DependencyInjection.Application/obj/Debug/netcoreapp3.1/Demo.DependencyInjection.Application.csprojAssemblyReference.cache
 Demo.DependencyInjection.Implementation1/obj/Debug/netcoreapp3.1/Demo.DependencyInjection.Implementation1.assets.cache
+Demo.DependencyInjection.Implementation1/obj/Debug/netcoreapp3.1/Demo.DependencyInjection.Implementation1.assets.cache
+*.cache
+Demo.DependencyInjection.Application/obj/Debug/netcoreapp3.1/Demo.DependencyInjection.Application.pdb

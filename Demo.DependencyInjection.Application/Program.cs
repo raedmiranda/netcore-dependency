@@ -10,26 +10,25 @@ namespace Demo.DependencyInjection.Application
         {
             var IoCContainer = IoCConfiguration.GenerateContainer();
 
-            Console.WriteLine("Multiplicator Example without Dependency Injection");
-            Console.WriteLine("Enter the multiplicand:");
-            var multiplicandString = Console.ReadLine();
-            int multiplicand = 0;
-            while (!int.TryParse(multiplicandString, out multiplicand))
-            {
-                Console.WriteLine("Must be a number. Enter the multiplicand again:");
-                multiplicandString = Console.ReadLine();
-            }
-            Console.WriteLine("Enter the multiplier:");
-            var multiplierString = Console.ReadLine();
-            int multiplier = 0;
-            while (!int.TryParse(multiplierString, out multiplier))
-            {
-                Console.WriteLine("Must be a number. Enter the multiplier again:");
-                multiplierString = Console.ReadLine();
-            }
+            Console.WriteLine("Multiplicator Example with Dependency Injection");
+            int multiplicand = ReadSafeNumber("multiplicand");
+            int multiplier = ReadSafeNumber("multiplier");
             int product = IoCContainer.Resolve<IMultiplicator>().MultiplyNumbers(multiplicand, multiplier);
             Console.WriteLine($"The product is: {product}");
             Console.ReadLine();
+        }
+
+        private static int ReadSafeNumber(string type)
+        {
+            Console.WriteLine($"Enter the {type}:");
+            var numberString = Console.ReadLine();
+            int number = 0;
+            while (!int.TryParse(numberString, out number))
+            {
+                Console.WriteLine($"Must be a number.\nEnter the {type} again:");
+                numberString = Console.ReadLine();
+            }
+            return number;
         }
     }
 }
