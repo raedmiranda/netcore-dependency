@@ -11,6 +11,7 @@ namespace Demo.DependencyInjection.Application
         {
             var builder = new ContainerBuilder();
             builder.RegisterType<Multiplicator2>().As<IMultiplicator>();
+            builder.RegisterType<CoinExchanger1>().As<ICoinExchanger>();
             return builder.Build();
         }
     }

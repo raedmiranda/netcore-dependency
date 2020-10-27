@@ -1,9 +1,6 @@
 # Tutorial
-This an implementation of the tutorial linked below but with `netcoreapp3.1` instead of `netframework4.6`.  
+This an implementation based on the tutorial linked below but with `netcoreapp3.1` instead of `netframework4.6`.  
 For educational purposes only.
-
-
-Reference: [¿Qué es la inyección de dependencias, para qué sirve y qué significan los tiempos de vida en su implementación? | Baufest© 2020 ◳](http://www.tss.com.pe/blog/que-es-la-inyeccion-de-dependencias-para-que-sirve-y-que-significan-los-tiempos-de-vida-en-su-implementacion)
 
 # Steps
 ## Create solution
@@ -24,7 +21,7 @@ dotnet sln Demo.DependencyInjection.sln add Demo.DependencyInjection.Application
 ```
 Reference: [dotnet sln - .NET Core CLI | Microsoft Docs ◳](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-sln)
 
-## Create class file Multiplicator in classlib Demo.DependencyInjection.Implementation1
+## Create class file CoinExchanger in classlib Demo.DependencyInjection.Implementation1
 Typing...
 
 ## Add reference to Demo.DependencyInjection.Implementation1 in Demo.DependencyInjection.Application
@@ -53,7 +50,7 @@ dotnet new classlib --name Demo.DependencyInjection.Abstractions --framework net
 dotnet sln Demo.DependencyInjection.sln add Demo.DependencyInjection.Abstractions/Demo.DependencyInjection.Abstractions.csproj
 ```
 
-## Create interface file IMultiplicator 
+## Create interface file ICoinExchanger 
 Typing...
 
 ## Add reference to Demo.DependencyInjection.Abstractions in Demo.DependencyInjection.Implementation1
@@ -61,7 +58,7 @@ Typing...
 dotnet add Demo.DependencyInjection.Implementation1/Demo.DependencyInjection.Implementation1.csproj reference Demo.DependencyInjection.Abstractions/Demo.DependencyInjection.Abstractions.csproj
 ```
 
-## Modify class file Multiplicator in classlib Demo.DependencyInjection.Implementation1 and rename to Multiplicator1
+## Modify class file CoinExchanger in classlib Demo.DependencyInjection.Implementation1 and rename to CoinExchanger1
 Typing...
 
 ## Create project
@@ -79,7 +76,7 @@ dotnet sln Demo.DependencyInjection.sln add Demo.DependencyInjection.Implementat
 dotnet add Demo.DependencyInjection.Implementation2/Demo.DependencyInjection.Implementation2.csproj reference Demo.DependencyInjection.Abstractions/Demo.DependencyInjection.Abstractions.csproj
 ```
 
-## Create class file Multiplicator2 in classlib Demo.DependencyInjection.Implementation2
+## Create class file CoinExchanger2 in classlib Demo.DependencyInjection.Implementation2
 Typing...
 
 ## Add reference to Demo.DependencyInjection.Implementation2 in Demo.DependencyInjection.Application
@@ -114,3 +111,6 @@ Link: [AutoFac Docs ◳](http://autofaccn.readthedocs.io/en/latest/index.html)
 dotnet run --project Demo.DependencyInjection.Application\Demo.DependencyInjection.Application.csproj
 ```
 # Finish
+
+
+Referenced tutorial: [¿Qué es la inyección de dependencias, para qué sirve y qué significan los tiempos de vida en su implementación? | Baufest© 2020 ◳](http://www.tss.com.pe/blog/que-es-la-inyeccion-de-dependencias-para-que-sirve-y-que-significan-los-tiempos-de-vida-en-su-implementacion)
